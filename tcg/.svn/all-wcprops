@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/tcg
+END
+tcg-op.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/tcg/tcg-op.h
+END
+tcg-opc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/tcg/tcg-opc.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/tcg/LICENSE
+END
+tcg.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/tcg/tcg.h
+END
+tcg-runtime.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/tcg/tcg-runtime.h
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/tcg/TODO
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/tcg/README
+END
+tcg.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/tcg/tcg.c
+END

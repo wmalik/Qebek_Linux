@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/fsdev
+END
+qemu-fsdev.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/fsdev/qemu-fsdev.h
+END
+qemu-fsdev.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/fsdev/qemu-fsdev.c
+END

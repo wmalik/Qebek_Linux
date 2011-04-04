@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/tests/alpha
+END
+test-cond.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/tests/alpha/test-cond.c
+END
+hello-alpha.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/tests/alpha/hello-alpha.c
+END
+test-ovf.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/tests/alpha/test-ovf.c
+END
+crt.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/tests/alpha/crt.s
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/tests/alpha/Makefile
+END

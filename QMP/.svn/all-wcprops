@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/QMP
+END
+qmp-shell
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/QMP/qmp-shell
+END
+qmp-spec.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/QMP/qmp-spec.txt
+END
+qmp.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/QMP/qmp.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/QMP/README
+END
+qmp-events.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/QMP/qmp-events.txt
+END

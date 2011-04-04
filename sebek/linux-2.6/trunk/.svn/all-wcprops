@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/sebek/!svn/ver/20/linux-2.6/trunk
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sebek/!svn/ver/13/linux-2.6/trunk/Makefile.in
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/AUTHORS
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/configure.in
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/depcomp
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/ChangeLog
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/config.guess
+END
+gen_fudge.pl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/gen_fudge.pl
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/README
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/config.sub
+END
+BUILD
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/BUILD
+END
+acconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/acconfig.h
+END
+filter.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/filter.txt
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/INSTALL
+END
+compile_filter.pl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/compile_filter.pl
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/Makefile.am
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/missing
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/NEWS
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/sebek/!svn/ver/13/linux-2.6/trunk/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/install-sh
+END
+sbk_install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sebek/!svn/ver/5/linux-2.6/trunk/sbk_install.sh
+END

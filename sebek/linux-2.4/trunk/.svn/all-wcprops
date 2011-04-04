@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/sebek/!svn/ver/6/linux-2.4/trunk
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/configure
+END
+README.FILTER
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/README.FILTER
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/Makefile.in
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/AUTHORS
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/depcomp
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/config.sub
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/INSTALL
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/COPYING
+END
+sebek.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/sebek.c
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/NEWS
+END
+sbk_install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/sbk_install.sh
+END
+sebek.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/sebek.h
+END
+af_packet.c.diff.adder
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/af_packet.c.diff.adder
+END
+af_packet.diff
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/af_packet.diff
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/configure.in
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/ChangeLog
+END
+cleaner.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/cleaner.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/README
+END
+gen_fudge.pl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/gen_fudge.pl
+END
+sbk_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/sbk_util.c
+END
+acconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/acconfig.h
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/config.h.in
+END
+sbk_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/sbk_util.h
+END
+filter.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/filter.txt
+END
+af_packet_prepare.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/af_packet_prepare.sh
+END
+filter.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/filter.c
+END
+compile_filter.pl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/compile_filter.pl
+END
+get_if.pl
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/get_if.pl
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/Makefile.am
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/missing
+END
+filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/filter.h
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sebek/!svn/ver/6/linux-2.4/trunk/install-sh
+END

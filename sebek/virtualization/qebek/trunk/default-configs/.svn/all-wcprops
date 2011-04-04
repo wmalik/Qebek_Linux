@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs
+END
+i386-bsd-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/i386-bsd-user.mak
+END
+m68k-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/m68k-softmmu.mak
+END
+sh4eb-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/sh4eb-linux-user.mak
+END
+s390x-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/s390x-softmmu.mak
+END
+ppc-darwin-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/ppc-darwin-user.mak
+END
+i386-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/i386-softmmu.mak
+END
+mips-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/mips-linux-user.mak
+END
+sparc-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/sparc-linux-user.mak
+END
+ppc64-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/ppc64-softmmu.mak
+END
+ppc64abi32-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/ppc64abi32-linux-user.mak
+END
+x86_64-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/x86_64-softmmu.mak
+END
+arm-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/arm-linux-user.mak
+END
+cris-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/cris-softmmu.mak
+END
+sparc-bsd-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/sparc-bsd-user.mak
+END
+sparc32plus-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/sparc32plus-linux-user.mak
+END
+mips64el-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/mips64el-softmmu.mak
+END
+sh4eb-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/sh4eb-softmmu.mak
+END
+alpha-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/alpha-linux-user.mak
+END
+ppcemb-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/ppcemb-softmmu.mak
+END
+armeb-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/armeb-linux-user.mak
+END
+microblaze-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/microblaze-linux-user.mak
+END
+mipsel-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/mipsel-linux-user.mak
+END
+ppc64-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/ppc64-linux-user.mak
+END
+x86_64-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/x86_64-linux-user.mak
+END
+arm-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/arm-softmmu.mak
+END
+cris-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/cris-linux-user.mak
+END
+sparc64-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/sparc64-softmmu.mak
+END
+mips64-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/mips64-softmmu.mak
+END
+ppc-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/ppc-softmmu.mak
+END
+pci.mak
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/pci.mak
+END
+microblaze-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/microblaze-softmmu.mak
+END
+x86_64-bsd-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/x86_64-bsd-user.mak
+END
+mipsel-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/mipsel-softmmu.mak
+END
+sh4-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/sh4-softmmu.mak
+END
+i386-darwin-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/i386-darwin-user.mak
+END
+ppc-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/ppc-linux-user.mak
+END
+sparc64-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/sparc64-linux-user.mak
+END
+m68k-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/m68k-linux-user.mak
+END
+mips-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/mips-softmmu.mak
+END
+sparc-softmmu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/default-configs/sparc-softmmu.mak
+END
+i386-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/i386-linux-user.mak
+END
+sparc64-bsd-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/sparc64-bsd-user.mak
+END
+sh4-linux-user.mak
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/default-configs/sh4-linux-user.mak
+END

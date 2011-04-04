@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide
+END
+qdev.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/qdev.c
+END
+mmio.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/mmio.c
+END
+microdrive.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/hw/ide/microdrive.c
+END
+ich.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/ich.c
+END
+cmd646.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/cmd646.c
+END
+ahci.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/ahci.c
+END
+piix.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/piix.c
+END
+ahci.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/ahci.h
+END
+pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/pci.c
+END
+isa.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/isa.c
+END
+via.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/via.c
+END
+pci.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/pci.h
+END
+internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/internal.h
+END
+macio.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/macio.c
+END
+core.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/hw/ide/core.c
+END

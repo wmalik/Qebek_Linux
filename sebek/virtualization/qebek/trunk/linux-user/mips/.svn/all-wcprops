@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/linux-user/mips
+END
+syscall_nr.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/linux-user/mips/syscall_nr.h
+END
+termbits.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/linux-user/mips/termbits.h
+END
+syscall.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/linux-user/mips/syscall.h
+END
+target_signal.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/linux-user/mips/target_signal.h
+END

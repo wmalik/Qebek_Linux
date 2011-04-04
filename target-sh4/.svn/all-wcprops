@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sh4
+END
+helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sh4/helper.c
+END
+helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sh4/helper.h
+END
+machine.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/target-sh4/machine.c
+END
+README.sh4
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/target-sh4/README.sh4
+END
+exec.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/target-sh4/exec.h
+END
+cpu.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sh4/cpu.h
+END
+op_helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sh4/op_helper.c
+END
+translate.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sh4/translate.c
+END
