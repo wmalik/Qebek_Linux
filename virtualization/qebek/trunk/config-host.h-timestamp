@@ -6,8 +6,8 @@
 #define CONFIG_QEMU_SYSCONFDIR "/usr/local/etc"
 #define CONFIG_QEMU_DOCDIR "/usr/local/share/doc/qebek"
 #define CONFIG_QEMU_CONFDIR "/usr/local/etc/qebek"
-#define HOST_X86_64 1
-#define HOST_LONG_BITS 64
+#define HOST_I386 1
+#define HOST_LONG_BITS 32
 #define CONFIG_POSIX 1
 #define CONFIG_LINUX 1
 #define CONFIG_SLIRP 1
@@ -22,6 +22,7 @@
 #define CONFIG_BDRV_WHITELIST \
     NULL
 #define CONFIG_VNC_TLS 1
+#define CONFIG_VNC_SASL 1
 #define CONFIG_VNC_PNG 1
 #define CONFIG_FNMATCH 1
 #define CONFIG_UUID 1

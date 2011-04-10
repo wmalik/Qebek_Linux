@@ -5,6 +5,7 @@
 #Visual Studio files
 obj/
 *.o
+*.d
 
 #Subversion files
 .svn

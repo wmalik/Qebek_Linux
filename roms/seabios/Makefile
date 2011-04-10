@@ -1,1 +1,0 @@
-/home/wmalik/VEE_Project/qebek/roms/seabios/Makefile

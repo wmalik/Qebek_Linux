@@ -1,1 +1,1 @@
-/home/csong/opensource/sebek_virtualized/qebek/trunk/Makefile.dis
+/home/wmalik/VEE_Project/qebek/virtualization/qebek/trunk/Makefile.dis
