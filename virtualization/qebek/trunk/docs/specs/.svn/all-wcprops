@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/docs/specs
+END
+ivshmem_device_spec.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/docs/specs/ivshmem_device_spec.txt
+END
+qed_spec.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/docs/specs/qed_spec.txt
+END
+acpi_pci_hotplug.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/docs/specs/acpi_pci_hotplug.txt
+END

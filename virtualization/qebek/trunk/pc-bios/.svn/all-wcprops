@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios
+END
+mpc8544ds.dts
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/mpc8544ds.dts
+END
+multiboot.bin
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/multiboot.bin
+END
+pxe-e1000.bin
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/pxe-e1000.bin
+END
+vgabios-stdvga.bin
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/vgabios-stdvga.bin
+END
+pxe-rtl8139.bin
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/pxe-rtl8139.bin
+END
+bamboo.dts
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/bamboo.dts
+END
+openbios-sparc32
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/openbios-sparc32
+END
+linuxboot.bin
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/linuxboot.bin
+END
+pxe-ne2k_pci.bin
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/pxe-ne2k_pci.bin
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/README
+END
+openbios-ppc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/openbios-ppc
+END
+openbios-sparc64
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/openbios-sparc64
+END
+vgabios-vmware.bin
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/vgabios-vmware.bin
+END
+vgabios.bin
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/vgabios.bin
+END
+bios.bin
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/bios.bin
+END
+mpc8544ds.dtb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/mpc8544ds.dtb
+END
+vgabios-qxl.bin
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/vgabios-qxl.bin
+END
+ohw.diff
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/ohw.diff
+END
+ppc_rom.bin
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/ppc_rom.bin
+END
+s390-zipl.rom
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/s390-zipl.rom
+END
+vgabios-cirrus.bin
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/vgabios-cirrus.bin
+END
+gpxe-eepro100-80861209.rom
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/gpxe-eepro100-80861209.rom
+END
+bamboo.dtb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/bamboo.dtb
+END
+petalogix-s3adsp1800.dtb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/petalogix-s3adsp1800.dtb
+END
+pxe-pcnet.bin
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/pxe-pcnet.bin
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/Makefile
+END
+pxe-virtio.bin
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/pxe-virtio.bin
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sebek/!svn/ver/63/virtualization/hv-sebek/trunk
+END
+ugrubmenu.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/ugrubmenu.sh
+END
+menu.lst
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/menu.lst
+END
+loopmount.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/loopmount.sh
+END
+updatedisk.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/updatedisk.sh
+END
+udisk.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/udisk.sh
+END
+menu_ad.lst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/menu_ad.lst
+END
+mkusb.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/mkusb.sh
+END
+mkdisk.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/53/virtualization/hv-sebek/trunk/mkdisk.sh
+END
+umavmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/umavmm.sh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sebek/!svn/ver/53/virtualization/hv-sebek/trunk/Makefile
+END
+mkmavmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/53/virtualization/hv-sebek/trunk/mkmavmm.sh
+END

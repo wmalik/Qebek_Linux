@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/tools/mkelfImage/kunzip_src/arch/i386/lib
+END
+kunzip.lds
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/tools/mkelfImage/kunzip_src/arch/i386/lib/kunzip.lds
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/tools/mkelfImage/kunzip_src/arch/i386/lib/Makefile
+END
+start.S
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/tools/mkelfImage/kunzip_src/arch/i386/lib/start.S
+END

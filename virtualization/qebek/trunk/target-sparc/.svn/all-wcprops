@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sparc
+END
+helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sparc/helper.c
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/target-sparc/TODO
+END
+helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sparc/helper.h
+END
+machine.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/target-sparc/machine.c
+END
+exec.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/target-sparc/exec.h
+END
+cpu.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sparc/cpu.h
+END
+op_helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sparc/op_helper.c
+END
+translate.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/target-sparc/translate.c
+END

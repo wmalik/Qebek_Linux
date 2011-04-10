@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/bsd-user/freebsd
+END
+syscall_nr.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/bsd-user/freebsd/syscall_nr.h
+END
+strace.list
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/bsd-user/freebsd/strace.list
+END

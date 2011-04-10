@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/optionrom
+END
+multiboot.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/optionrom/multiboot.S
+END
+linuxboot.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/optionrom/linuxboot.S
+END
+multiboot.bin
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/optionrom/multiboot.bin
+END
+linuxboot.bin
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/optionrom/linuxboot.bin
+END
+optionrom.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/pc-bios/optionrom/optionrom.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/pc-bios/optionrom/Makefile
+END

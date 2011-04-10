@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts
+END
+simpletrace.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/simpletrace.py
+END
+qemu-binfmt-conf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/qemu-binfmt-conf.sh
+END
+checkpatch.pl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/checkpatch.pl
+END
+signrom.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/signrom.sh
+END
+create_config
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/create_config
+END
+feature_to_c.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/feature_to_c.sh
+END
+texi2pod.pl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/texi2pod.pl
+END
+make_device_config.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/make_device_config.sh
+END
+tracetool
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/tracetool
+END
+hxtool
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sebek/!svn/ver/64/virtualization/qebek/trunk/scripts/hxtool
+END

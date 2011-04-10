@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/bsd-user/sparc64
+END
+syscall.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/bsd-user/sparc64/syscall.h
+END
+target_signal.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sebek/!svn/ver/58/virtualization/qebek/trunk/bsd-user/sparc64/target_signal.h
+END

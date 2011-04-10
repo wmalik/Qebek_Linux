@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sebek/!svn/ver/53/virtualization/hv-sebek/trunk/hostfs
+END
+fat32.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/hostfs/fat32.c
+END
+license
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/hostfs/license
+END
+mode.S
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/53/virtualization/hv-sebek/trunk/hostfs/mode.S
+END
+hostfs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/53/virtualization/hv-sebek/trunk/hostfs/hostfs
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sebek/!svn/ver/53/virtualization/hv-sebek/trunk/hostfs/Makefile
+END
+fat32_ui.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/hostfs/fat32_ui.c
+END

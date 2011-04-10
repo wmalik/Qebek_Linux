@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD
+END
+sebekd.spec
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sebekd.spec
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/configure.in
+END
+sbk_ks_log.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sbk_ks_log.pl
+END
+sbk_extract.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sbk_extract.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/README
+END
+sbk_upload.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sbk_upload.pl
+END
+acconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/acconfig.h
+END
+sbk_extract.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sbk_extract.h
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/config.h.in
+END
+sebek_extract.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sebek_extract.c
+END
+sebekd.pl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sebekd.pl
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/Makefile.am
+END
+sebek_extract.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sebek_extract.h
+END
+Makefile.rpm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/Makefile.rpm
+END
+sbk_viewer.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sbk_viewer.pl
+END
+sbk_diag.pl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sebek/!svn/ver/7/sebekd/tags/INITIAL_RPM_BUILD/sbk_diag.pl
+END

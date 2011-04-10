@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio
+END
+noaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/noaudio.c
+END
+audio.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/audio.c
+END
+audio_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/audio_template.h
+END
+alsaaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/alsaaudio.c
+END
+sdlaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/sdlaudio.c
+END
+sys-queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/sys-queue.h
+END
+audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/audio.h
+END
+fmodaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/fmodaudio.c
+END
+coreaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/coreaudio.c
+END
+dsoundaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/dsoundaudio.c
+END
+wavaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/wavaudio.c
+END
+audio_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/audio_int.h
+END
+wavcapture.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/wavcapture.c
+END
+ossaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/ossaudio.c
+END
+mixeng.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/mixeng.c
+END
+mixeng_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/mixeng_template.h
+END
+rate_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/rate_template.h
+END
+mixeng.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/mixeng.h
+END
+dsound_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/dsound_template.h
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/audio/.cvsignore
+END

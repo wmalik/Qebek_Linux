@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/tools/mkelfImage/config
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/tools/mkelfImage/config/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/tools/mkelfImage/config/config.sub
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sebek/!svn/ver/52/virtualization/hv-sebek/trunk/tools/mkelfImage/config/install-sh
+END

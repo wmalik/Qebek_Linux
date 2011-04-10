@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386
+END
+ops_template_mem.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/ops_template_mem.h
+END
+helper2.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/helper2.c
+END
+ops_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/ops_template.h
+END
+qebek-nt-network.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-nt-network.h
+END
+qebek-op.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-op.c
+END
+ops_mem.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/ops_mem.h
+END
+qebek-nt-console.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-nt-console.c
+END
+qebek-op.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-op.h
+END
+svm.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/svm.h
+END
+qebek-nt-network-helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-nt-network-helper.c
+END
+qebek-nt-console.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-nt-console.h
+END
+opreg_template.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/opreg_template.h
+END
+op.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/op.c
+END
+helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/helper.c
+END
+qebek-nt-network-helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-nt-network-helper.h
+END
+ops_sse.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/ops_sse.h
+END
+qebek-nt-console-helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-nt-console-helper.c
+END
+qebek-nt-console-helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-nt-console-helper.h
+END
+exec.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/exec.h
+END
+cpu.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/cpu.h
+END
+qebek-nt-network.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/qebek-nt-network.c
+END
+translate.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sebek/!svn/ver/56/virtualization/qebek/tags/0.1/target-i386/translate.c
+END
