@@ -80,7 +80,7 @@ void postNtCreateThread(CPUX86State *env, void* user_data);
 //
 // TODO: Check the current version before choosing an opcode
 //
-#define  OPCODE_READ_CONSOLE        0x2021D
+#define  OPCODE_READ_CONSOLE        0x2021D //WASIF: WHAT ARE THESE?
 #define  OPCODE_WRITE_CONSOLE       0x2021E
 
 #define CONSOLE_WRITE_INFO_MESSAGE_BUFFER_SIZE  80

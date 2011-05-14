@@ -27,7 +27,7 @@ static qebek_bp_slot** qebek_bpt = NULL;
 
 bool qebek_bpt_init(void)
 {
-	qebek_bpt = qemu_malloc(QEBEK_BP_SIZE);
+	qebek_bpt = qemu_malloc(QEBEK_BP_SIZE); //WASIF:Q what does qemu_malloc() do?
 	if(!qebek_bpt)
 	{
 		fprintf(stderr, "qebek_bpt_init: failed to allocate break point table.\n");
@@ -63,6 +63,8 @@ void qebek_bpt_free(void)
 
 bool qebek_bp_add(target_ulong address, target_ulong pid, target_ulong stack_id, qebek_cb_func cb_func, void* user_data)
 {
+//WASIF:INFO this function puts a breakpoint in the breakpoint table
+//WASIF:Q who checks this breakpoint table and from where?
 	qebek_bp_slot* bp_slot;
 	uint32_t hash;
 

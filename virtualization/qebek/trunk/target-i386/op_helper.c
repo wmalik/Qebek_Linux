@@ -24,6 +24,7 @@
 
 /* For QEBEK, added by Chengyu */
 #include "qebek-hook.h"
+#include "qebek-common.h"
 
 //#define DEBUG_PCALL
 
@@ -1219,6 +1220,108 @@ static void handle_even_inj(int intno, int is_int, int error_code,
 void do_interrupt(int intno, int is_int, int error_code,
                   target_ulong next_eip, int is_hw)
 {
+
+uint8_t *buffer;
+int buffsize;
+uint8_t *filename_EBX;
+uint8_t *argv_ECX;
+uint8_t *env_EDX;
+target_ulong **test_buffer;
+target_ulong ***tpl_ptr;
+
+
+
+if(intno == 0x80 && env->regs[R_EAX] == 0x04) {
+
+/*
+buffsize = (int)env->regs[R_EDX];
+
+fprintf(stderr, "MWP: do_interrupt_called %x syscall:%x fd=%x, value:%x size:%d \n",intno, env->regs[R_EAX], env->regs[R_EBX], env->regs[R_ECX], buffsize);
+
+if(buffsize > 0 )
+{
+
+buffer = qemu_malloc(buffsize + 1);
+if(buffer == NULL )
+
+{
+	fprintf(stderr, "MWP: failed to alloc buffer in do_interrupt \n");
+}
+
+else 
+{
+	if(!qebek_read_raw(env, env->regs[R_ECX], buffer, buffsize))
+	{
+		fprintf(stderr, "MWP: failed to read buffer:\n ");
+	}
+	else
+	{
+		//qebek_log_data(env, SEBEK_TYPE_READ, buffer, 1);
+		fprintf(stderr, "MWP: output - %s", (char*)buffer);
+	}
+
+}
+
+}
+*/
+}
+
+
+else if(intno == 0x80 && env->regs[R_EAX] == 0x0b)
+{
+	filename_EBX = qemu_malloc(10);
+	argv_ECX = qemu_malloc(10);
+	env_EDX = qemu_malloc(10);
+	
+	fprintf(stderr, "SYS_EXECV detected: ");
+	
+	if(!qebek_read_raw(env, env->regs[R_EBX], filename_EBX, 10)) 
+        {
+                fprintf(stderr, "SYS_EXECV: failed to read filename:\n ");
+        }
+        else
+        {
+                //qebek_log_data(env, SEBEK_TYPE_READ, buffer, 1);
+                fprintf(stderr, "%s ", (char*)filename_EBX);
+        }
+	
+/*
+	if(!strncmp((char*)filename_EBX, "/bin/ls", 7))
+	{
+
+	//test_buffer = qemu_malloc(500);		
+	//test_buffer = env->regs[R_ECX];
+
+//LALITH starts here
+//tpl_ptr = qemu_malloc(20);
+tpl_ptr = (target_ulong***)env->regs[R_ECX];
+fprintf(stderr, "tpl_ptr address=%x",(unsigned int)**tpl_ptr);
+
+
+	//if(!qebek_read_raw(env, env->regs[R_ECX], argv_ECX, 10))
+	if(!qebek_read_raw(env, (target_ulong)**tpl_ptr, argv_ECX, 10))  
+        {
+                fprintf(stderr, "SYS_EXECV: failed to read buffer with address (**)%ld and (*)%ld\n ",env->regs[R_ECX], (target_ulong)test_buffer[0]);
+        }
+        else
+        {
+                //qebek_log_data(env, SEBEK_TYPE_READ, buffer, 1);
+                fprintf(stderr, "%s ", (char*)argv_ECX);
+        }
+
+
+//LALITH ends
+
+
+	
+	} //my if ends
+*/
+	fprintf(stderr, "\n");
+	
+	
+}
+
+
     if (qemu_loglevel_mask(CPU_LOG_INT)) {
         if ((env->cr[0] & CR0_PE_MASK)) {
             static int count;
@@ -2804,7 +2907,7 @@ void helper_sysenter(void)
         raise_exception_err(EXCP0D_GPF, 0);
     }
     env->eflags &= ~(VM_MASK | IF_MASK | RF_MASK);
-    cpu_x86_set_cpl(env, 0);
+    cpu_x86_set_cpl(env, 0); //WASIF:Q what does this function do?
 
 #ifdef TARGET_X86_64
     if (env->hflags & HF_LMA_MASK) {
@@ -2830,6 +2933,7 @@ void helper_sysenter(void)
     ESP = env->sysenter_esp;
     EIP = env->sysenter_eip;
 
+fprintf(stderr, "SYSENTER called");
     if(unlikely(qebek_syscall_init == 0)) {
 	qebek_hook_syscall(env);
     }

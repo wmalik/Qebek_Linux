@@ -125,14 +125,14 @@ VOID OnNtReadWriteFile(CPUX86State *env, HANDLE Handle, ULONG Buffer, ULONG Buff
 	}
 	memset(buffer, 0, BufferSize + 1);
 
-	if(!qebek_read_raw(env, Buffer, buffer, BufferSize))
+	if(!qebek_read_raw(env, Buffer, buffer, BufferSize)) //WASIF:Q what does this do?
 	{
 		fprintf(stderr, "OnNtReadWriteFile: failed to read buffer: %x %x\n", Buffer, BufferSize);
 	}
 	else
 	{
 		// log
-		qebek_log_data(env, SEBEK_TYPE_READ, buffer, BufferSize);
+		qebek_log_data(env, SEBEK_TYPE_READ, buffer, BufferSize); //WASIF:Q What does this do?
 	}
 
 	qemu_free(buffer);
@@ -145,7 +145,7 @@ void preNtReadFile(CPUX86State *env, void* user_data)
 	PNtReadWriteData pReadData;
 
 	// get file handle, buffer & buffer size from stack
-    qebek_read_ulong(env, env->regs[R_ESP] + 4, &ReadHandle);
+    qebek_read_ulong(env, env->regs[R_ESP] + 4, &ReadHandle); //WASIF:Q what does this do?
     qebek_read_ulong(env, env->regs[R_ESP] + 6 * 4, &ReadBuffer);
     qebek_read_ulong(env, env->regs[R_ESP] + 7 * 4, &ReadSize);	
 	
@@ -174,9 +174,10 @@ void postNtReadFile(CPUX86State *env, void* user_data)
 	PNtReadWriteData pReadData = (PNtReadWriteData)user_data;
 
 	if(pReadData == NULL)
-	{
+	{//WASIF: why are we trying to read after the Read has happened? Should the preNtReadFile be enough?
+
 		// get file handle, buffer & buffer size from stack
-		qebek_read_ulong(env, env->regs[R_ESP] - 9 * 4, &ReadHandle);
+		qebek_read_ulong(env, env->regs[R_ESP] - 9 * 4, &ReadHandle); //WASIF: why (-9*4)?
 		qebek_read_ulong(env, env->regs[R_ESP] - 4 * 4, &ReadBuffer);
 		qebek_read_ulong(env, env->regs[R_ESP] - 3 * 4, &ReadSize);
 	}

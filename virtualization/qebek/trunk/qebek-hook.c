@@ -42,6 +42,7 @@ void qebek_hook_syscall(CPUState *env)
 
 #if defined(TARGET_I386)
 
+	//WASIF:Q why are we adding two hex numbers? What does each represent? Why are we reading from these memory locations?
         pkthread = 0xffdff000 + 0x124; //FIXME
         //fprintf(stderr, "qebek_hook_syscall: pkthread %08x\n", pkthread);
 
@@ -70,7 +71,7 @@ void qebek_hook_syscall(CPUState *env)
 #if defined(TARGET_I386) || defined(TARGET_X86_64)
 		switch(qebek_os_minor)
 		{
-		case QEBEK_OS_winxp:
+		case QEBEK_OS_winxp: //WASIF:Q What do these addresses represent?
 			index_NtRequestWaitReplyPort = 0x0c8;
 			index_NtSecureConnectPort = 0x0d2;
 			index_NtClose = 0x019;
