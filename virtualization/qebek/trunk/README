@@ -1,14 +1,12 @@
-README
-
-
 
 Authors:
-	Marcus
-	Wasif
-	Paulo
+
+-Marcus Ljungblad
+-Wasif Riaz Malik
+-Paulo Ricardo Motta Gomes
 
 
-
+Please follow these steps to get Qebek (for Linux) up and running.
 
 1) Compile the source:
 	./configure
@@ -29,4 +27,5 @@ Authors:
 
 8) If you didn't smile, go back to step 7 
 
+9) Keep smiling!
 
