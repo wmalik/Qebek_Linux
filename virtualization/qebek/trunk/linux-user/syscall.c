@@ -372,6 +372,9 @@ static int sys_openat(int dirfd, const char *pathname, int flags, ...)
    * open(2) has extra parameter 'mode' when called with
    * flag O_CREAT.
    */
+aslkdjaslkdjaslkdj
+fprintf(stderr, "\nsys_openat(%d, %s, %d)",firfd, pathname, flags);
+
   if ((flags & O_CREAT) != 0) {
       va_list ap;
       mode_t mode;

@@ -34,11 +34,11 @@ uint32_t qebek_g_magic;
 qebek_os_major_t qebek_os_major;
 qebek_os_minor_t qebek_os_minor;
 
-bool qebek_read_ulong(CPUState *env, target_ulong address, target_ulong *value) //WASIF:Q does this read from a memory address? 
+bool qebek_read_ulong(CPUState *env, target_ulong address, target_ulong *value) 
 {
 	target_phys_addr_t phys_addr;
 
-	phys_addr = cpu_get_phys_page_debug(env, address);   //WASIF:Q where is this function and what does it do? 
+	phys_addr = cpu_get_phys_page_debug(env, address);   
 	if(phys_addr == -1)
 		return False;
 

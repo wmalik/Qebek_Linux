@@ -26,6 +26,10 @@
 #include "qebek-hook.h"
 #include "qebek-common.h"
 
+/*for HASH */
+//#include "syscall_defs.h"
+#include<fcntl.h>
+
 //#define DEBUG_PCALL
 
 
@@ -110,6 +114,21 @@ static const CPU86_LDouble f15rk[7] =
 };
 
 /* broken thread support */
+
+
+/*added for HASH*/
+bool execve_done = false;
+bool geteuid32_done = false;
+bool open1_done = false;
+bool open2_done = false;
+bool cp_args1_done = false;
+bool cp_args2_done = false;
+unsigned char *cp_from;
+unsigned char *cp_to;
+unsigned char *cp_args1;
+unsigned char *cp_args2;
+const int buffsize = 40;
+
 
 static spinlock_t global_cpu_lock = SPIN_LOCK_UNLOCKED;
 
@@ -1212,6 +1231,204 @@ static void handle_even_inj(int intno, int is_int, int error_code,
 }
 #endif
 
+
+/*
+added for HASH
+cleanup_cp - resets all the variables used for intercepting cp file1.txt file2.txt
+*/
+void cleanup_cp(void) //TODO: move out
+{
+	execve_done = false;
+	geteuid32_done = false;
+	open1_done = false;
+	open2_done = false;
+	cp_from = NULL;
+	cp_to = NULL;
+	cp_args1 = NULL;
+	cp_args2 = NULL;
+	cp_args1_done = false;
+	cp_args2_done = false;
+}
+
+
+
+
+/*
+added for HASH
+handleCP - contains the logic for intercepting cp file1.txt fiel2.txt
+*/
+void handleCP(void) //move it out later on
+{
+
+if(env->regs[R_EAX] == 0x0b) //execve() (EAX=0x0b,filename, ECX=argv)
+{
+	uint8_t *command_name;
+	command_name = qemu_malloc(20);
+
+	if(!qebek_read_raw(env, env->regs[R_EBX], command_name, 20)) 
+        {
+                fprintf(stderr, "SYS_EXECV: failed to read filename");
+		cleanup_cp(); 
+		return;
+        }
+
+	if( !strncmp((char*)command_name, "/bin/cp", 7)  )
+	{	
+		int i;
+		for(i=1;i<10;i++)
+		{
+			target_ulong *x = qemu_malloc (50);
+			qebek_read_ulong (env, env->regs[R_ECX] + (i * sizeof(&env->regs[R_ECX]) ) , x);
+
+			unsigned char *argument;
+			argument = qemu_malloc(50); 
+			
+
+			if(!qebek_read_raw(env, x[0],argument, 50))
+			{
+				fprintf(stderr, "\nfailed_argument %d",i);
+			}
+
+
+			if ( !strncmp((char*)argument,"-",1) ) //ignoring all arguments starting with '-'
+			{
+				continue;
+			}
+			else if ( !strncmp((char*)argument,"/proc/mounts",12) )
+			{
+				break;
+			}
+			else if ( !strncmp((char*)argument,"/proc/mtab",12) )
+			{
+				break;
+			}
+			else if(!cp_args1_done)
+			{
+				cp_args1 = qemu_malloc(50);
+				memcpy(cp_args1, argument, 50);
+				cp_args1_done = true;
+				continue;
+
+			}
+			else if(cp_args1_done && !cp_args2_done)
+			{
+				cp_args2 = qemu_malloc(50);
+				memcpy(cp_args2, argument, 50);
+				cp_args2_done = true;
+				break;
+			}
+		}
+		if(cp_args1_done && cp_args2_done)
+		{
+			execve_done = true;
+		}
+	}
+}
+
+else if(env->regs[R_EAX] == 0xc9 && execve_done) //geteuid32()
+{
+	geteuid32_done = true;
+}
+else if(env->regs[R_EAX] == 0x05 && geteuid32_done && !open1_done)	//open() (EAX=0x05, EBX=filename)
+{
+	open1_done = true;	
+	unsigned char *buffer;
+
+	int mask_result;
+	
+	mask_result = (env->regs[R_ECX] & O_DIRECTORY ); //0200000
+	
+	if( mask_result == O_DIRECTORY  ) 
+	{
+		open1_done = false;
+	}
+	
+
+	
+	buffer = qemu_malloc(buffsize + 1);
+
+	if(!qebek_read_raw(env, env->regs[R_EBX], buffer, buffsize))
+	{
+		fprintf(stderr, "failed to read buffer while handling open():\n ");
+	}
+	else
+	{
+		if(!(strncmp((char*)buffer, "/dev/null",9)))
+		{
+			open1_done = false;
+		}
+		else
+		{
+		cp_from = qemu_malloc(buffsize+1);
+		memcpy(cp_from, buffer, buffsize);
+		}
+	}
+
+	
+
+
+
+}
+else if(env->regs[R_EAX] == 0x05 && open1_done)	//open() (EAX=0x05, EBX=filename)
+{
+	open2_done = true;
+	//DEBUG fprintf(stderr, "\nopen2_done");
+
+
+	unsigned char *buffer;
+	buffer = qemu_malloc(buffsize + 1);
+	if(buffer == NULL)
+	{
+		fprintf(stderr, "failed to alloc buffer while handling open()\n");
+	}
+
+	else 
+	{
+		if(!qebek_read_raw(env, env->regs[R_EBX], buffer, buffsize))
+		{
+			fprintf(stderr, "failed to read buffer while handling open():\n ");
+		}
+		else
+		{
+			cp_to = qemu_malloc(buffsize+1);
+			memcpy(cp_to, buffer, buffsize);
+			open1_done = false;
+			
+			//cp is now complete, lets print!
+			fprintf(stderr, "\n[MWP_CP]\tcp \"%s\" \"%s\"",cp_from, cp_to);
+		}
+	}
+
+
+
+}
+else if (env->regs[R_EAX] == 0xfc && open2_done)	//exit_group() (EAX=0xfc)
+{
+	cleanup_cp();
+}
+
+
+}//end of handleCP()
+
+
+/*added for HASH
+handleOpen - intercepts and outputs all open calls
+*/
+
+void handleOpen(void)
+{
+	if(env->regs[R_EAX] == 0x05)
+	{
+		unsigned char *buffer;
+		buffer = qemu_malloc(100);
+		qebek_read_raw(env, env->regs[R_EBX], buffer, 100);
+		fprintf(stderr, "\n[MWP_OPEN]\t%s", buffer);
+		qemu_free(buffer);
+	}
+}
+
+
+
 /*
  * Begin execution of an interruption. is_int is TRUE if coming from
  * the int instruction. next_eip is the EIP value AFTER the interrupt
@@ -1220,14 +1437,6 @@ static void handle_even_inj(int intno, int is_int, int error_code,
 void do_interrupt(int intno, int is_int, int error_code,
                   target_ulong next_eip, int is_hw)
 {
-
-uint8_t *buffer;
-int buffsize;
-uint8_t *filename_EBX;
-uint8_t *argv_ECX;
-uint8_t *env_EDX;
-target_ulong **test_buffer;
-target_ulong ***tpl_ptr;
 
 
 
@@ -1267,59 +1476,15 @@ else
 }
 
 
-else if(intno == 0x80 && env->regs[R_EAX] == 0x0b)
+
+
+else if(intno == 0x80)
 {
-	filename_EBX = qemu_malloc(10);
-	argv_ECX = qemu_malloc(10);
-	env_EDX = qemu_malloc(10);
 	
-	fprintf(stderr, "SYS_EXECV detected: ");
+	handleCP();
+	handleOpen();
 	
-	if(!qebek_read_raw(env, env->regs[R_EBX], filename_EBX, 10)) 
-        {
-                fprintf(stderr, "SYS_EXECV: failed to read filename:\n ");
-        }
-        else
-        {
-                //qebek_log_data(env, SEBEK_TYPE_READ, buffer, 1);
-                fprintf(stderr, "%s ", (char*)filename_EBX);
-        }
-	
-/*
-	if(!strncmp((char*)filename_EBX, "/bin/ls", 7))
-	{
-
-	//test_buffer = qemu_malloc(500);		
-	//test_buffer = env->regs[R_ECX];
-
-//LALITH starts here
-//tpl_ptr = qemu_malloc(20);
-tpl_ptr = (target_ulong***)env->regs[R_ECX];
-fprintf(stderr, "tpl_ptr address=%x",(unsigned int)**tpl_ptr);
-
-
-	//if(!qebek_read_raw(env, env->regs[R_ECX], argv_ECX, 10))
-	if(!qebek_read_raw(env, (target_ulong)**tpl_ptr, argv_ECX, 10))  
-        {
-                fprintf(stderr, "SYS_EXECV: failed to read buffer with address (**)%ld and (*)%ld\n ",env->regs[R_ECX], (target_ulong)test_buffer[0]);
-        }
-        else
-        {
-                //qebek_log_data(env, SEBEK_TYPE_READ, buffer, 1);
-                fprintf(stderr, "%s ", (char*)argv_ECX);
-        }
-
-
-//LALITH ends
-
-
-	
-	} //my if ends
-*/
-	fprintf(stderr, "\n");
-	
-	
-}
+}//int0x80 if ends
 
 
     if (qemu_loglevel_mask(CPU_LOG_INT)) {
