@@ -25,7 +25,7 @@
 
 extern int qebek_syscall_init;
 
-void qebek_hook_syscall(CPUState *env);
+void qebek_hook_syscall(CPUState *env, target_ulong* sys_call_table_base);
 
 int qebek_check_target(CPUState *env, target_ulong eip);
 
