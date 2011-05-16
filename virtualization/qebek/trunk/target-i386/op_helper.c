@@ -1321,7 +1321,8 @@ if(env->regs[R_EAX] == 0x0b) //execve() (EAX=0x0b,filename, ECX=argv)
 
 			if(!qebek_read_raw(env, x[0],argument, 50))
 			{
-				fprintf(stderr, "\nfailed_argument %d",i);
+				//break;
+				//fprintf(stderr, "\nfailed_argument %d",i);
 			}
 
 
@@ -1430,7 +1431,7 @@ else if(env->regs[R_EAX] == 0x05 && open1_done)	//open() (EAX=0x05, EBX=filename
 			open1_done = false;
 			
 			//cp is now complete, lets print!
-			fprintf(stderr, "\n[MWP_CP]\tcp \"%s\" \"%s\"",cp_from, cp_to);
+			fprintf(stderr, "cp-%s;%s\n",cp_from, cp_to);
 		}
 	}
 
@@ -1457,7 +1458,7 @@ void handleOpen(void)
 		unsigned char *buffer;
 		buffer = qemu_malloc(100);
 		qebek_read_raw(env, env->regs[R_EBX], buffer, 100);
-		fprintf(stderr, "\n[MWP_OPEN]\t%s", buffer);
+		fprintf(stderr, "open-%s\n", buffer);
 		qemu_free(buffer);
 	}
 }

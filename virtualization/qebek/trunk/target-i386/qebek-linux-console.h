@@ -19,8 +19,23 @@
  *
  */
 
+typedef struct LinuxReadWriteData
+{
+	uint32_t FileDescriptor;
+	uint32_t BufferAddr;
+	uint32_t BufferSize;
+}LinuxReadWriteData, *PLinuxReadWriteData;
+
+//util
+void ReadBufferAndPrint(CPUX86State *env, uint32_t BufferAddr, uint32_t BufferSize, char* prefix);
+
+//pre
 void preLinuxRead(CPUX86State *env, void* user_data);
 void preLinuxWrite(CPUX86State *env, void* user_data);
+
+//post
+void postLinuxRead(CPUX86State *env, void* user_data);
+
 
 #define  INDEX_LINUX_WRITE        0x04
 #define  INDEX_LINUX_READ        0x03 //WASIF: WHAT ARE THESE?

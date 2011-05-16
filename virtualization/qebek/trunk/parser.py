@@ -3,9 +3,13 @@ from time import strftime
 
 # Defines sets of files which are flagged
 NOACCESS = set()
+NOACCESS.add("private.txt")
 HIGH = set()
+HIGH.add("/root/high_profile.txt")
 MEDIUM = set()
+MEDIUM.add("/home/medium/high_profile.txt")
 LOW = set()
+LOW.add("/home/low/high_profile.txt")
 
 
 def is_illegal_access(afile): 
@@ -32,28 +36,63 @@ def log_illegal(comment):
 def log_copy(comment):
     log(comment, "Illegal_copy")
 def log(comment, logtype): 
-    print "[" + str(datetime.datetime.now()) + "|" + logtype + "] " + comment
+    print "[" + str(getTime()) + "|" + logtype + "] " + comment
 
 def getTime():
 	return strftime("%Y-%m-%d %H:%M:%S")
 
-stdin = ""
+
+stdin = open("stdin.log", "a")
+stdout = open("stdout.log", "a")
+stderr = open("stderr.log", "a")
 
 while True:
-	s = sys.stdin.readline()
-	if(not s):
+	line = sys.stdin.readline()
+	if(not line):
 		break
-	else:
-		if(s.startswith("stdin")):
-			char = s.replace("stdin","")
-			if(char == '\b'):
-				stdin = stdin + "<bak>"
-			elif(char == '\n'):
-				print '[%s|STDIN] %s' % (getTime(),stdin),
-				stdin = ""
-			else:
-				stdin = stdin + char
+
+	charsToRead = 0
+
+	try:
+		charsToRead = int(line)
+	except ValueError:
+		if(line.startswith("open-")):
+				line = line.replace("open-","")
+				line = line.replace("\n","")
+				#print "Opened file: " + line
+				is_illegal_access(line.strip())
+		elif(line.startswith("cp-")):
+			line = line.replace("cp-","")
+			line = line.replace("\n","")
+			spl = line.split(";")
+			log("Copied file " + spl[0] + " to " + spl[1],"copy")
+			is_cp_ok(spl[0].strip(),spl[1].strip())
 		else:
-			print '[%s|STDOUT] %s' % (getTime(),s),
+			print line,
+			continue
+
+	s = sys.stdin.read(charsToRead)	
+	s = s.replace("\b","<backspace>",1)
+	
+	if(s.startswith("stdinp-")):
+		s = s.replace("stdinp-","",1)
+		s = s.replace(chr(13),"\n")
+		s = s.replace(chr(127),"<backspace>")
+		s = s.replace("\n", "\n[" + str(getTime()) + "] ")
+		stdin.write(s)
+		stdin.flush()
+	elif(s.startswith("stdout-")):
+		s = s.replace("stdout-","",1)
+		s = s.replace("\n", "\n[" + str(getTime()) + "] ")
+		stdout.write(s)
+		stdout.flush()
+	elif(s.startswith("stderr-")):
+		s = s.replace("stderr-","",1)
+		s = s.replace("\n", "\n[" + str(getTime()) + "] ")
+		stderr.write(s)
+		stderr.flush()
 
 
+stdin.close()
+stdout.close()
+stderr.close()
