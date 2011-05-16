@@ -1,3 +1,32 @@
-Read the documentation in qemu-doc.html.
+README
 
-Fabrice Bellard.
+
+
+Authors:
+	Marcus
+	Wasif
+	Paulo
+
+
+
+
+1) Compile the source:
+	./configure
+	make
+
+2) Download the linux image from https://github.com/downloads/wmalik/Qebek_Linux/linux-0.2-net.img 
+
+3) Add the path of the downloaded image to the IMAGE_FILE variable in run-qebek-linux.sh 
+
+4) To run the image in Qebek and see some virtual action, run the following script 
+	./run-qebek-linux.sh
+
+5) Try to write some stuff in the VM, copy a file etc.
+
+6) See the output in the console from where you executed run-qebek-linux.sh
+
+7) Smile. 
+
+8) If you didn't smile, go back to step 7 
+
+

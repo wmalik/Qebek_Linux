@@ -1,6 +1,5 @@
 #! /bin/sh
 SBK_DIAG=../../../sebekd/trunk/sbk_diag.pl
-#IMAGE_FILE=./windows.img
 IMAGE_FILE=./linux-0.2-net.img
 
 # your user id here
